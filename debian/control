@@ -1,0 +1,37 @@
+Source: qtwebbrowser
+Section: net
+Priority: optional
+Maintainer: JBBgameich <jbb.mail@gmx.de>
+Build-Depends: debhelper (>= 9),
+               qtwebengine5-dev,
+               qtbase5-dev,
+               qtdeclarative5-dev,
+               qml-module-qtwebengine,
+               qml-module-qtquick-controls,
+Standards-Version: 3.9.8
+Homepage: https://code.qt.io/cgit/qt-apps/qtwebbrowser.git
+Vcs-Git: https://code.qt.io/cgit/qt-apps/qtwebbrowser.git/
+Vcs-Browser: https://code.qt.io/cgit/qt-apps/qtwebbrowser.git/
+
+Package: qtwebbrowser
+Architecture: any
+Depends: libqt5webenginecore5,
+         ${shlibs:Depends},
+         ${misc:Depends}
+Description: Webbrowser for embedded devices by Qt
+ Qt WebBrowser (codename Roadtrip) is a browser for embedded devices
+ developed using the capabilities of Qt and Qt WebEngine.
+ Using Chromium, it features up-to-date HTML technologies
+ behind a minimal but slick touch-friendly user interface
+ written in Qt Quick
+ .
+ All basic browser features are supported:
+ You can search for text (both in history and via Google).
+ You can bookmark pages, navigate in the page history,
+ and open multiple pages concurrently
+ .
+ Depending on the codecs available,
+ full-screen video and audio playback should also just work.
+ You can also enable a private browser mode
+ that leaves no traces after the browser is closed
+ .

@@ -1,0 +1,16 @@
+ qtwebbrowser (1.0-1) unstable; urgency=medium
+ .
+   * Initial release
+Author: JBBgameich <jbb.mail@gmx.de>
+
+---
+
+--- qtwebbrowser-1.0.orig/src/src.pro
++++ qtwebbrowser-1.0/src/src.pro
+@@ -43,5 +43,5 @@ RESOURCES += resources.qrc
+     isEmpty(INSTALL_PREFIX): INSTALL_PREFIX=/data/user/qt/qtwebbrowser-app
+ }
+ 
+-target.path = $$INSTALL_PREFIX
++target.path = /usr/bin/
+ INSTALLS += target
