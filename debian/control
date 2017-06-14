@@ -16,6 +16,7 @@ Vcs-Browser: https://github.com/JBBgameich/qtwebbrowser-packaging
 Package: qtwebbrowser
 Architecture: any
 Depends: libqt5webenginecore5,
+         qtvirtualkeyboard,
          ${shlibs:Depends},
          ${misc:Depends}
 Description: Webbrowser for embedded devices by Qt
