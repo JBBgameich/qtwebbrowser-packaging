@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 9),
                qml-module-qtquick-controls,
 Standards-Version: 3.9.8
 Homepage: https://code.qt.io/cgit/qt-apps/qtwebbrowser.git
-Vcs-Git: https://code.qt.io/cgit/qt-apps/qtwebbrowser.git/
-Vcs-Browser: https://code.qt.io/cgit/qt-apps/qtwebbrowser.git/
+Vcs-Git: https://github.com/JBBgameich/qtwebbrowser-packaging.git
+Vcs-Browser: https://github.com/JBBgameich/qtwebbrowser-packaging
 
 Package: qtwebbrowser
 Architecture: any
